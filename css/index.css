@@ -1,0 +1,29 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+body {
+    background-color: #f9f4f5;
+}
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #5b5f66;
+	text-shadow: 0 1px 0 white;
+}	
+h1 {
+    color: #5b5f66;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+}
