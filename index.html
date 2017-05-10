@@ -14,44 +14,65 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#про_нас">Про нас</a></li>
-                <li><a href="#вибір_подорожі">Вибір подорожі</a></li>
-                <li><a href="#як_замовити">Як замовити</a></li>
-                <li><a href="#карта">Карта</a></li>
-                <li><a href="#контакти">Контакти</a></li>
+                <li><a href="#about_us">Про нас</a></li>
+                <li><a href="#trip_selection">Вибір подорожі</a></li>
+                <li><a href="#how_to_book">Як замовити</a></li>
+                <li><a href="#map">Карта</a></li>
+                <li><a href="#contacts">Контакти</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="про_нас">
+        <section id="about_us">
             <br>
             <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
             <h1>За допомогою нашої турфірми ви можете обрати будь-який запропонований тур по Ісландії, або ж розробити власний , звернувшись до менеджера.</h1>
         </section>
-        <section id="вибір_подорожі">
+        <section id="trip_selection">
             <h2>Вибір подорожі</h2>
-            <section id="картинка1">
-            <img src="img/picture1.1.jpg" alt="картинка1.1" style="float:inherit;width:500px;height:400px;>
-            Від 1,033 USD
-            <br>8 Днів Туру | Голуба лагуна, Золоте кільце
-            </section>
-            <section id="картинка2">
-            <img src="img/picture2.1.jpg" alt="картинка2.1" style="float:inherit;width:500px;height:400px;>
-            Від 1,602 USD
-            <br>12 Днів Туру | Кільце Ісландії, Термальні джерела, Гори Ельдфедль
-            </section>
-            <section id="картинка3">
-            <img src="img/picture3.1.jpg"alt="картинка3.1" style="float:inherit;width:500px;height:400px;>
-            Від 560 USD
-            <br>6 днів Туру | Льодяні печери Вантайекюдль, Полярне сяйво
-            </section>
-            <section id="картинка1">
-            <img src="img/picture4.1.jpg" alt="картинка4.1" style="float:inherit;width:500px;height:400px;>
-            Від 844 USD
-            <br>7 Днів Туру | Столиця Рейк'явік, Водоспади Детифос та Свартифос
-            </section>
+                <div class="flex-container">
+                    <div class="flex-item item1">
+                        <a target="_blank" href="img/picture1_1.jpg">
+                            <img src="img/picture1_1.jpg" alt="Захід сонця" width="500" height="400">
+                        </a>
+                        <div class="desc">Від 1,033 USD<br>8 Днів Туру | Чорна лагуна, Золоте кільце<br></div>
+                    </div>
+                </div>
+
+                <div class="flex-container">
+                    <div class="flex-item item2">
+                        <a target="_blank" href="img/picture2_1.jpg">
+                            <img src="img/picture2_1.jpg" alt="Краєвид" width="500" height="400">
+                        </a>
+                        <div class="desc">Від 1,602 USD<br>12 Днів Туру | Кільце Ісландії, Термальні джерела, Гори Ельдфедль<br></div>
+                        </div>
+                    </div>
+
+                <div class="flex-container">
+                    <div class="flex-item item3">
+                        <a target="_blank" href="img/picture3_1.jpg">
+                            <img src="img/picture3_1.jpg" alt="Місто" width="500" height="400">
+                        </a>
+                    <div class="desc">Від 844 USD<br>7 Днів Туру | Столиця Рейк'явік, Водоспади Детифос та Свартифос<br></div>
+                    </div>
+                </div>
+
+               <div class="flex-container">
+                    <div class="flex-item item4">
+                        <a target="_blank" href="img/picture4_1.jpg">
+                            <img src="img/picture4_1.jpg" alt="Полярне сяйво" width="500" height="400">
+                        </a>
+                        <div class="desc">Від 560 USD<br>6 днів Туру | Льодяні печери Вантайекюдль, Полярне сяйво<br></div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                    <div style="padding:6px;">
+                    </div>
         </section>
-        <section id="як_замовити">    
+        <section id="how_to_book"> 
+        <link rel="stylesheet" href="css/index.css">
             <h3>Як ми працюємо:</h3>
             <br>1.Ви обираєте тур, або залишаєте нам заявку на підбір.
             <br>2.Наші менеджери пропонують вам декілька варіантів.
@@ -60,14 +81,14 @@
             <br>5.Після цього починається ваш довгоочікуваний відпочинок.
             <br>6.Ви відпочиваєте – ми працюємо! В будь-який момент вашого відпочинку Ви можете звернутися до нас з питання, і ми з радістю Вам допоможемо. 
         </section>
-        <section id="карта">
-        <h4>Наш офіс на карті</h4>
-        </section>
     </main>
     <footer>
-        <section id="контакти">
+        <section id="map">
+        <h4>Наш офіс на карті</h4>
+        </section>
+        <section id="contacts">
             <h5>Зв'язатися з менеджером</h5>
-            <form method="POST" action="https://formspree.io/treble112@ukr.net">
+             <form method="POST" action="https://formspree.io/treble112@ukr.net">
             <label>Ім'я та прізвище:
             <input type="text" name="ім'я_та_прізвище" placeholder="Джон Траволтра">
             </label>
